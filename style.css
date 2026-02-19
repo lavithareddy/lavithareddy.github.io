@@ -227,3 +227,35 @@ header {
   color: #38bdf8;
   font-weight: 600;
 }
+/* ================= CONTACT ================= */
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-item {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.contact-item:hover {
+  background: #334155;
+}
+
+.contact-item i {
+  margin-right: 8px;
+  color: #38bdf8;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #f1f5f9;
+  font-weight: 500;
+}
