@@ -114,6 +114,16 @@ header {
   border-radius: 25px;
   color: #0ea5e9;
   text-decoration: none;
+}.about-container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+  color: #cbd5e1;
 }
 /* SKILLS */
 .skills-grid {
