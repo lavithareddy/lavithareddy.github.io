@@ -8,8 +8,8 @@
 
 /* BODY */
 body {
-  background: #0b0b0f;
-  color: #f1f1f1;
+  background: #1f2933; /* charcoal */
+  color: #f0f4f8;
 }
 
 /* CONTAINER */
@@ -21,12 +21,9 @@ body {
 
 /* NAVBAR */
 header {
-  position: fixed;
-  width: 100%;
-  background: #111118;
-  padding: 15px 0;
-  z-index: 1000;
-  border-bottom: 1px solid #1e1e2e;
+  background: #111827;
+  padding: 18px 0;
+  border-bottom: 1px solid #334155;
 }
 
 .nav-container {
@@ -36,9 +33,9 @@ header {
 }
 
 .logo {
-  color: #a855f7;
-  font-weight: 600;
   font-size: 20px;
+  font-weight: 600;
+  color: #14b8a6; /* teal */
 }
 
 .nav-links {
@@ -49,32 +46,32 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: #e4e4e7;
+  color: #e2e8f0;
   font-weight: 500;
   transition: 0.3s;
 }
 
 .nav-links a:hover {
-  color: #a855f7;
+  color: #14b8a6;
 }
 
+/* Resume Button */
 .resume-btn {
-  background: #a855f7;
+  background: #14b8a6;
   padding: 8px 18px;
   border-radius: 20px;
-  color: white !important;
+  color: #0f172a !important;
   font-weight: 600;
   transition: 0.3s;
 }
 
 .resume-btn:hover {
-  background: #9333ea;
+  background: #0d9488;
 }
 
 /* HERO */
 .hero {
-  padding-top: 120px;
-  padding-bottom: 80px;
+  padding: 90px 0;
 }
 
 .hero-layout {
@@ -86,31 +83,31 @@ header {
 }
 
 .hero-text h1 {
-  font-size: 40px;
+  font-size: 42px;
 }
 
 .hero-text span {
-  color: #a855f7;
+  color: #14b8a6;
 }
 
 .hero-text h2 {
   margin: 15px 0;
-  color: #9ca3af;
+  color: #94a3b8;
 }
 
 .hero-text p {
   margin-top: 15px;
   line-height: 1.6;
-  color: #d1d5db;
+  color: #cbd5e1;
 }
 
 .hero-image img {
-  width: 280px;
+  width: 260px;
   border-radius: 15px;
-  box-shadow: 0 0 20px rgba(168,85,247,0.4);
+  border: 3px solid #14b8a6;
 }
 
-/* SECTIONS */
+/* SECTION */
 .section {
   padding: 80px 0;
 }
@@ -118,8 +115,8 @@ header {
 .section-title {
   text-align: center;
   font-size: 28px;
-  margin-bottom: 50px;
-  color: #a855f7;
+  margin-bottom: 40px;
+  color: #14b8a6;
 }
 
 /* SKILLS */
@@ -130,7 +127,7 @@ header {
 }
 
 .skill-card {
-  background: #16161f;
+  background: #273549;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -138,13 +135,13 @@ header {
 }
 
 .skill-card:hover {
+  background: #334155;
   transform: translateY(-5px);
-  background: #1e1e2e;
 }
 
 /* INTERNSHIP */
 .internship-card {
-  background: #16161f;
+  background: #273549;
   padding: 30px;
   border-radius: 12px;
   max-width: 700px;
@@ -152,11 +149,11 @@ header {
 }
 
 .internship-card h3 {
-  color: #a855f7;
+  color: #14b8a6;
 }
 
 .duration {
-  color: #9ca3af;
+  color: #94a3b8;
   font-size: 14px;
   margin-bottom: 15px;
 }
@@ -164,16 +161,16 @@ header {
 .certificate-btn {
   display: inline-block;
   margin-top: 20px;
-  background: #a855f7;
+  background: #14b8a6;
   padding: 6px 14px;
   border-radius: 20px;
-  color: white;
+  color: #0f172a;
   text-decoration: none;
   font-weight: 600;
 }
 
 .certificate-btn:hover {
-  background: #9333ea;
+  background: #0d9488;
 }
 
 /* CONTACT */
@@ -187,19 +184,19 @@ header {
 }
 
 .contact-item {
-  background: #16161f;
+  background: #273549;
   padding: 15px;
   border-radius: 10px;
   transition: 0.3s;
 }
 
 .contact-item:hover {
-  background: #1e1e2e;
+  background: #334155;
 }
 
 .contact-item a {
   text-decoration: none;
-  color: #e4e4e7;
+  color: #e2e8f0;
 }
 
 /* RESPONSIVE */
