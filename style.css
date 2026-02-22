@@ -6,9 +6,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* BODY */
 body {
-  background: #0f172a;
-  color: #f1f5f9;
+  background: #f8fafc;
+  color: #1e293b;
 }
 
 /* CONTAINER */
@@ -22,8 +23,9 @@ body {
 header {
   position: fixed;
   width: 100%;
-  background: #111827;
+  background: white;
   padding: 15px 0;
+  border-bottom: 1px solid #e2e8f0;
   z-index: 1000;
 }
 
@@ -34,7 +36,7 @@ header {
 }
 
 .logo {
-  color: #38bdf8;
+  color: #2563eb;
   font-weight: 600;
   font-size: 20px;
 }
@@ -47,20 +49,20 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: #f1f5f9;
+  color: #1e293b;
   font-weight: 500;
   transition: 0.3s;
 }
 
 .nav-links a:hover {
-  color: #38bdf8;
+  color: #2563eb;
 }
 
 .resume-btn {
-  background: #38bdf8;
+  background: #2563eb;
   padding: 8px 18px;
   border-radius: 20px;
-  color: #0f172a !important;
+  color: white !important;
   font-weight: 600;
 }
 
@@ -78,27 +80,23 @@ header {
   flex-wrap: wrap;
 }
 
-.hero-text {
-  flex: 1;
-}
-
 .hero-text h1 {
   font-size: 40px;
 }
 
 .hero-text span {
-  color: #38bdf8;
+  color: #2563eb;
 }
 
 .hero-text h2 {
   margin: 15px 0;
-  color: #94a3b8;
+  color: #64748b;
 }
 
 .hero-text p {
   margin-top: 15px;
   line-height: 1.6;
-  color: #cbd5e1;
+  color: #475569;
 }
 
 .hero-image img {
@@ -115,7 +113,7 @@ header {
   text-align: center;
   font-size: 28px;
   margin-bottom: 50px;
-  color: #38bdf8;
+  color: #2563eb;
 }
 
 /* SKILLS */
@@ -126,58 +124,75 @@ header {
 }
 
 .skill-card {
-  background: #1e293b;
+  background: white;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
+  border: 1px solid #e2e8f0;
   transition: 0.3s;
 }
 
 .skill-card:hover {
   transform: translateY(-5px);
-  background: #334155;
+  border-color: #2563eb;
 }
 
 /* INTERNSHIP */
 .internship-card {
-  background: #1e293b;
+  background: white;
   padding: 30px;
   border-radius: 12px;
   max-width: 700px;
   margin: 0 auto;
-  text-align: left;
+  border: 1px solid #e2e8f0;
 }
 
 .internship-card h3 {
-  color: #38bdf8;
-  margin-bottom: 5px;
-}
-
-.internship-card h4 {
-  margin-bottom: 5px;
+  color: #2563eb;
 }
 
 .duration {
-  color: #94a3b8;
+  color: #64748b;
   font-size: 14px;
   margin-bottom: 15px;
 }
 
 .certificate-btn {
   display: inline-block;
-  margin-top: 15px;
-  background: #38bdf8;
+  margin-top: 20px;
+  background: #2563eb;
   padding: 6px 14px;
   border-radius: 20px;
-  color: #0f172a;
+  color: white;
   text-decoration: none;
   font-weight: 600;
 }
 
 /* CONTACT */
-#contact p {
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  margin: 0 auto;
   text-align: center;
-  color: #cbd5e1;
+}
+
+.contact-item {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  transition: 0.3s;
+}
+
+.contact-item:hover {
+  border-color: #2563eb;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #1e293b;
 }
 
 /* RESPONSIVE */
@@ -190,72 +205,4 @@ header {
   .hero-image {
     margin-top: 30px;
   }
-}
-/* ================= PROJECTS ================= */
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
-}
-
-.project-card {
-  background: #1e293b;
-  padding: 25px;
-  border-radius: 12px;
-  transition: 0.3s;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-  background: #334155;
-}
-
-.project-card h3 {
-  color: #38bdf8;
-  margin-bottom: 10px;
-}
-
-.project-card p {
-  color: #cbd5e1;
-  margin-bottom: 15px;
-  font-size: 14px;
-}
-
-.project-card a {
-  text-decoration: none;
-  color: #38bdf8;
-  font-weight: 600;
-}
-/* ================= CONTACT ================= */
-
-.contact-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 500px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.contact-item {
-  background: #1e293b;
-  padding: 15px;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-
-.contact-item:hover {
-  background: #334155;
-}
-
-.contact-item i {
-  margin-right: 8px;
-  color: #38bdf8;
-}
-
-.contact-item a {
-  text-decoration: none;
-  color: #f1f5f9;
-  font-weight: 500;
 }
