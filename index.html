@@ -1,244 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lavitha Reddy | AI/ML Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lavitha Reddy Chelukala | AI &amp; ML Engineer</title>
+<meta name="description" content="Portfolio of Lavitha Reddy Chelukala — AI &amp; Machine Learning engineer building CNN, NLP and generative AI systems.">
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<!-- Font Awesome (icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 </head>
-
-<body><footer>
-  © 2026 Lavitha Reddy | Built with HTML & CSS
-</footer>
-</body>
+<body>
 
 <!-- ================= NAVBAR ================= -->
-<header>
+<header class="site-header">
   <div class="container nav-container">
-    <div class="logo">Lavitha Reddy</div>
-
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li>
-        <a href="resume/LavithaReddy_Resume.pdf"
-           target="_blank"
-           class="resume-btn">
-          Resume
-        </a>
-      </li>
-    </ul>
+    <a href="#top" class="logo">Lavitha Reddy</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="resume/LavithaReddy_Resume.pdf" target="_blank" class="resume-btn">Resume</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
 
+<main id="top">
 
-<!-- ================= HERO SECTION ================= -->
-<section class="hero-center">
-  <img src="images/profile.jpg" alt="Lavitha Reddy" class="profile-img">
-
-  <h1>Lavitha Reddy Chelukala</h1>
-
-  <p class="tagline">
-    AI & Machine Learning Engineer focused on building intelligent,
-    real-world solutions using data-driven systems.
-  </p>
-
-  <div class="hero-buttons">
-    <a href="#projects" class="primary-btn">View Projects</a>
-    <a href="resume/LavithaReddy_Resume.pdf" target="_blank" class="outline-btn">
-      Download Resume
-    </a>
-  </div>
-</section>
-
-<!-- ================= ABOUT ================= -->
-<section id="about" class="section">
-  <div class="container about-container">
-
-    <h2 class="section-title">About Me</h2>
-
-    <div class="about-content">
-      <p>
-        I am a B.Tech student specializing in Artificial Intelligence and 
-        Machine Learning with a strong interest in building intelligent, 
-        real-world solutions. I enjoy working on machine learning models, 
-        deep learning architectures, and NLP-based systems that solve 
-        meaningful problems.
-      </p>
-
-    </div>
-
-  </div>
-</section>
-<!-- ================= SKILLS ================= -->
-<section id="skills" class="section">
-  <div class="container">
-    <h2 class="section-title">Skills</h2>
-
-    <div class="skills-grid">
-      <div class="skill-card">Scikit-Learn</div>
-<div class="skill-card">Flask</div>
-<div class="skill-card">Machine Learning</div>
-<div class="skill-card">NLP</div>
-<div class="skill-card">Git</div>
-</div>
-</div>
-</section>
-
-
-<!-- ================= INTERNSHIP ================= -->
-<section id="internship" class="section">
-  <div class="container">
-    <h2 class="section-title">Internship</h2>
-
-    <div class="internship-card">
-      <h3>AI & ML Internship (Virtual)</h3>
-      <h4>Elevate Labs</h4>
-      <p class="duration">April 2025 – May 2025</p>
-
-      <p>
-        Worked on Machine Learning concepts including data preprocessing,
-        model building, and evaluation. Gained hands-on experience in
-        Python, Scikit-learn, and TensorFlow while building
-        AI-based mini projects.
-      </p>
-
-      <!-- Certificate at bottom -->
-      <div class="certificate-container">
-        <a href="certification/elevatelabs.pdf"
-           target="_blank"
-           class="certificate-btn">
-           View Certificate
-        </a>
-      </div>
-
-    </div>
-  </div>
-</section>
-  <!-- ================= CERTIFICATIONS ================= -->
-<section id="certifications" class="section">
-  <div class="container">
-    <h2 class="section-title">Certifications</h2>
-
-    <div class="certification-list">
-
-      <div class="cert-card">
-        <h3>Python for Beginners</h3>
-        <p>Simplilearn SkillUp • April 2025</p>
-      </div>
-
-      <div class="cert-card">
-        <h3>Machine Learning with Python</h3>
-        <p>FreeCodeCamp • April 2025</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ================= PROJECTS ================= -->
-<section id="projects" class="section">
-  <div class="container">
-    <h2 class="section-title">Projects</h2>
-
-    <!-- Project 1 -->
-  <div class="project-row">
-  <div class="project-img">
-    <img src="images/adversarial attack.jpg" alt="Adversarial Attack">
-  </div>
-
-  <div class="project-text">
-    <h3>Adversarial Attack Detection</h3>
-
-    <p>
-      Developed a CNN-based system to analyze adversarial robustness 
-      using FGSM attacks and evaluated model performance stability.
-    </p>
-
-    <div class="tech-stack">
-      <span>Python</span>
-      <span>TensorFlow</span>
-      <span>CNN</span>
-      <span>FGSM</span>
-    </div>
-
-    <a href="https://github.com/lavithareddy"
-       target="_blank"
-       class="github-btn">
-       View on GitHub
-    </a>
-  </div>
-</div>
-    <!-- Project 2 -->
-    <div class="project-row reverse">
-      <div class="project-img">
-        <img src="images/ai proffesor.jpg" alt="AI Professor">
-      </div>
-      <div class="project-text">
-        <h3>AI Professor</h3>
-        <p>
-          Built a lecture-style AI assistant using FastAPI and generative AI.
-          Designed structured responses and backend integration for dynamic learning.
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="node"></span>AI / ML Engineer</p>
+        <h1>Lavitha Reddy<br>Chelukala</h1>
+        <p class="tagline">
+          I build intelligent, real-world systems &mdash; from CNNs that
+          probe adversarial robustness to NLP models that catch fraud
+          hiding in plain text.
         </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="resume/LavithaReddy_Resume.pdf" target="_blank" class="btn btn-outline">Download Resume</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <svg class="node-graph" viewBox="0 0 320 320" aria-hidden="true">
+          <line x1="60" y1="70" x2="160" y2="40" />
+          <line x1="60" y1="70" x2="90" y2="170" />
+          <line x1="160" y1="40" x2="250" y2="90" />
+          <line x1="160" y1="40" x2="90" y2="170" />
+          <line x1="250" y1="90" x2="220" y2="200" />
+          <line x1="90" y1="170" x2="220" y2="200" />
+          <line x1="90" y1="170" x2="130" y2="260" />
+          <line x1="220" y1="200" x2="130" y2="260" />
+          <line x1="220" y1="200" x2="270" y2="250" />
+          <circle cx="60" cy="70" r="5" />
+          <circle cx="160" cy="40" r="5" />
+          <circle cx="250" cy="90" r="5" />
+          <circle cx="90" cy="170" r="6" class="node-accent" />
+          <circle cx="220" cy="200" r="5" />
+          <circle cx="130" cy="260" r="5" />
+          <circle cx="270" cy="250" r="5" />
+        </svg>
+        <div class="hero-photo-frame">
+          <img src="images/profile.jpg" alt="Portrait of Lavitha Reddy Chelukala" class="profile-img">
+        </div>
       </div>
     </div>
+  </section>
 
-    <!-- Project 3 -->
-    <div class="project-row">
-      <div class="project-img">
-        <img src="images/fakeimage.jpg" alt="Fake Job Detection">
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="section reveal">
+    <div class="container narrow">
+      <p class="eyebrow"><span class="node"></span>About</p>
+      <h2 class="section-title">A little about me</h2>
+      <p class="body-lg">
+        I'm a B.Tech student specializing in Artificial Intelligence and
+        Machine Learning, with a strong interest in building intelligent,
+        real-world solutions. I enjoy working across the stack &mdash;
+        from data preprocessing and model architecture to deploying
+        NLP-based systems that solve problems people actually have.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills" class="section reveal">
+    <div class="container narrow">
+      <p class="eyebrow"><span class="node"></span>Skills</p>
+      <h2 class="section-title">Tools I work with</h2>
+      <div class="skills-grid">
+        <div class="skill-card">Python</div>
+        <div class="skill-card">Scikit-Learn</div>
+        <div class="skill-card">TensorFlow</div>
+        <div class="skill-card">Flask</div>
+        <div class="skill-card">Machine Learning</div>
+        <div class="skill-card">NLP</div>
+        <div class="skill-card">FastAPI</div>
+        <div class="skill-card">Git</div>
       </div>
-      <div class="project-text">
-        <h3>Fake Job Post Detection</h3>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE (Internship + Certifications) ================= -->
+  <section id="experience" class="section reveal">
+    <div class="container narrow">
+      <p class="eyebrow"><span class="node"></span>Experience</p>
+      <h2 class="section-title">Internship &amp; certifications</h2>
+
+      <div class="internship-card">
+        <div class="internship-head">
+          <div>
+            <h3>AI &amp; ML Internship <span class="muted">(Virtual)</span></h3>
+            <p class="org">Elevate Labs</p>
+          </div>
+          <p class="duration">Apr 2025 &ndash; May 2025</p>
+        </div>
         <p>
-          Created an NLP-based classification system to detect fraudulent job postings
-          using TF-IDF and machine learning classifiers.
+          Worked on core machine learning concepts including data
+          preprocessing, model building, and evaluation. Gained hands-on
+          experience with Python, Scikit-learn, and TensorFlow while
+          building AI-based mini projects.
         </p>
+        <a href="certification/elevatelabs.pdf" target="_blank" class="link-arrow">View certificate &rarr;</a>
+      </div>
+
+      <div class="certification-list">
+        <div class="cert-card">
+          <h3>Python for Beginners</h3>
+          <p>Simplilearn SkillUp &middot; April 2025</p>
+        </div>
+        <div class="cert-card">
+          <h3>Machine Learning with Python</h3>
+          <p>freeCodeCamp &middot; April 2025</p>
+        </div>
       </div>
     </div>
+  </section>
 
-  </div>
-</section>
-<!-- ================= CONTACT ================= -->
-<section id="contact" class="section">
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="section reveal">
+    <div class="container narrow">
+      <p class="eyebrow"><span class="node"></span>Projects</p>
+      <h2 class="section-title">Selected work</h2>
+
+      <div class="project-list">
+
+        <article class="project-card">
+          <div class="project-img">
+            <img src="images/adversarial%20attack.jpg" alt="Adversarial Attack Detection project screenshot">
+          </div>
+          <div class="project-text">
+            <h3>Adversarial Attack Detection</h3>
+            <p>
+              A CNN-based system to analyze adversarial robustness using
+              FGSM attacks, evaluating how model performance holds up
+              under perturbation.
+            </p>
+            <div class="tech-stack">
+              <span>Python</span><span>TensorFlow</span><span>CNN</span><span>FGSM</span>
+            </div>
+            <a href="https://github.com/lavithareddy" target="_blank" class="link-arrow">View on GitHub &rarr;</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img">
+            <img src="images/ai%20proffesor.jpg" alt="AI Professor project screenshot">
+          </div>
+          <div class="project-text">
+            <h3>AI Professor</h3>
+            <p>
+              A lecture-style AI assistant built with FastAPI and
+              generative AI, with structured responses and backend
+              integration designed for dynamic learning.
+            </p>
+            <div class="tech-stack">
+              <span>Python</span><span>FastAPI</span><span>Generative AI</span>
+            </div>
+            <a href="https://github.com/lavithareddy" target="_blank" class="link-arrow">View on GitHub &rarr;</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img">
+            <img src="images/fakeimage.jpg" alt="Fake Job Post Detection project screenshot">
+          </div>
+          <div class="project-text">
+            <h3>Fake Job Post Detection</h3>
+            <p>
+              An NLP-based classification system that detects fraudulent
+              job postings using TF-IDF feature extraction and machine
+              learning classifiers.
+            </p>
+            <div class="tech-stack">
+              <span>Python</span><span>NLP</span><span>TF-IDF</span><span>Scikit-Learn</span>
+            </div>
+            <a href="https://github.com/lavithareddy" target="_blank" class="link-arrow">View on GitHub &rarr;</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="section reveal">
+    <div class="container narrow">
+      <p class="eyebrow"><span class="node"></span>Contact</p>
+      <h2 class="section-title">Let's talk</h2>
+      <p class="body-lg">
+        Open to AI/ML internships and entry-level roles. The fastest way
+        to reach me is email.
+      </p>
+      <div class="contact-list">
+        <a class="contact-item" href="https://mail.google.com/mail/?view=cm&fs=1&to=lavithareddy25@gmail.com" target="_blank">
+          <i class="fas fa-envelope"></i>
+          <span>lavithareddy25@gmail.com</span>
+        </a>
+        <a class="contact-item" href="https://linkedin.com/in/chelukala-lavitha-reddy/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a class="contact-item" href="https://github.com/lavithareddy" target="_blank">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
   <div class="container">
-    <h2 class="section-title">Contact Me</h2>
-
-    <div class="contact-container">
-
-      <div class="contact-item">
-        <i class="fas fa-envelope"></i>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lavithareddy25@gmail.com"
-           target="_blank">
-           lavithareddy25@gmail.com
-        </a>
-      </div>
-
-      <div class="contact-item">
-        <i class="fab fa-linkedin"></i>
-        <a href="https://linkedin.com/in/chelukala-lavitha-reddy/"
-           target="_blank">
-           LinkedIn Profile
-        </a>
-      </div>
-
-      <div class="contact-item">
-        <i class="fab fa-github"></i>
-        <a href="https://github.com/lavithareddy"
-           target="_blank">
-           GitHub Profile
-        </a>
-      </div>
-
-    </div>
+    <p>&copy; 2026 Lavitha Reddy Chelukala &middot; Built with HTML &amp; CSS</p>
   </div>
-</section>
+</footer>
 
+<script>
+  // Mobile nav toggle
+  const toggle = document.querySelector('.nav-toggle');
+  const links = document.querySelector('.nav-links');
+  toggle.addEventListener('click', () => {
+    const isOpen = links.classList.toggle('open');
+    toggle.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen);
+  });
+  document.querySelectorAll('.nav-links a').forEach(a => {
+    a.addEventListener('click', () => {
+      links.classList.remove('open');
+      toggle.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Scroll reveal
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!prefersReduced && 'IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('in-view'));
+  }
+
+  // Sticky header shadow on scroll
+  const header = document.querySelector('.site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 8);
+  });
+</script>
+
+</body>
+</html>
